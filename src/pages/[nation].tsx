@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Box, Flex, Heading, Image, Text, Tooltip } from "@chakra-ui/react";
 import { InfoOutlineIcon } from '@chakra-ui/icons';
 import { GetStaticPaths, GetStaticProps } from "next";
@@ -30,6 +31,9 @@ export default function Nation({nation}: NationProps) {
 
   return (
     <>
+      <Head>
+        <title> {nation.title} | WorldTrip</title>
+      </Head>
       <Box
       width="100%"
       height={["9.4rem", "31rem"]}
