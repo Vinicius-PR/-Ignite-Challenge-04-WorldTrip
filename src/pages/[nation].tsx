@@ -1,7 +1,9 @@
-import { Box, Flex, Heading, HStack, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text, Tooltip } from "@chakra-ui/react";
+import { InfoOutlineIcon } from '@chakra-ui/icons';
 import { GetStaticPaths, GetStaticProps } from "next";
 import { theme } from "../styles/theme";
 import ReactCountryFlag from "react-country-flag";
+
 
 interface Nation {
   id: number;
@@ -29,7 +31,7 @@ export default function Nation({nation}: NationProps) {
   return (
     <>
       <Box
-      width="100vw"
+      width="100%"
       height={["9.4rem", "31rem"]}
       bgImage= {`url('${nation.url_nation_img}')`}
       bgSize= "cover"
@@ -133,6 +135,9 @@ export default function Nation({nation}: NationProps) {
             lineHeight="2.25rem" 
           >
             cidades +100
+            <Tooltip label="Número de cidades entre as 100 mais visitadas" placement="bottom">
+              <InfoOutlineIcon ml="5px" w={["10px", "16px"]} h={["10px", "16px"]} color={theme.colors.dark.info50}/>
+            </Tooltip>
           </Text>
         </Box>
       </Flex>
