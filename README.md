@@ -52,4 +52,4 @@ Start the aplication and enjoy: \o/
 
 # Conclusion
 This projet is my solution of the main challenge, chapter 4 - React. Bootcamp Administered by [Rocketseat](https://rocketseat.com.br/ "Rocketseat").
-Each challenge done is one more step to become a better programmer 😎. With this one, I toke a huge step forward.
+Each challenge done is one more step to become a better programmer 😎. With this one, I took a huge step forward.
