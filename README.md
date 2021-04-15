@@ -35,10 +35,10 @@ The slides was created with Swiper. Very easy to use. To find more about Swiper:
 # To start using
 
 Clone this project to you local files typing the command (go to the location where you wanna save it):
-> git clone https://github.com/Vinicius-PR/-Ignite-Challenge-04-WorldTrip
+> git clone https://github.com/Vinicius-PR/Ignite-Challenge-04-WorldTrip
 
 Move to the file project:
-> cd -Ignite-Challenge-04-WorldTrip
+> cd Ignite-Challenge-04-WorldTrip
 
 Open with your code editor. If you are using Visual Code, run:
 
